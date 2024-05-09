@@ -30,7 +30,7 @@ def area(r):
   # Verificamos si el valor es negativo
   if r < 0:
     raise ValueError("No se permiten valores negativos")
-    # print("No negativos")
+    # print("No se permiten valores negativos")
   
   areaC = pi*(r**2)
   return areaC
