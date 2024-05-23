@@ -1,5 +1,3 @@
-# 🙄
-
 """
 Definir una clase padre llamada Vehiculo y dos clases hijas llamadas Coche y Bicicleta,
 las cuales heredan de la clase Padre Vehiculo.

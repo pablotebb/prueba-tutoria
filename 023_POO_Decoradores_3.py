@@ -1,4 +1,3 @@
-# 🙄
 
 #Función decoradora con parámetros variables
 

@@ -1,4 +1,4 @@
-# 🙄
+
 
 
 class Persona():
@@ -44,5 +44,5 @@ operario01 = Empleado("Andrés", 34, "Barcelona", 23000, 2)
 operario01.resumen()
 
 #Principio de sustitución
-print(isinstance(operario01, Empleado))
-print(isinstance(operario01, Persona))
+isinstance(operario01, Empleado)
+isinstance(operario01, Persona)

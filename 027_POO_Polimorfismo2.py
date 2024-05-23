@@ -1,5 +1,3 @@
-# 🙄
-
 
 class Moto():
     def ruedas(self):

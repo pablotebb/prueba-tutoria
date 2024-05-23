@@ -1,5 +1,3 @@
-# 🙄
-
 from Empleado import Empleado
 from Gerente import Gerente
 

@@ -1,4 +1,3 @@
-# 🙄
 
 #Función decoradora con parámetros
 
@@ -18,7 +17,7 @@ def funcion_decoradora(funcion_a_decorar):
 def suma(num1, num2):
     print(num1+num2)
  
-# @funcion_decoradora    
+#  @funcion_decoradora    
 def resta(num1, num2):
     print(num1-num2)
     

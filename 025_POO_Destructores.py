@@ -1,5 +1,3 @@
-# 🙄
-
 from Persona2 import Persona
 
 print('Creación objetos'.center(30, '-'))

@@ -1,11 +1,11 @@
-# 🙄
+
 
 
 # POO
 
 # CREACIÓN DE UNA CLASE
 
-# from ast import If
+from ast import If
 
 
 class Coche():

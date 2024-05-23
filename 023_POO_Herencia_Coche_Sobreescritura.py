@@ -1,4 +1,3 @@
-# 🙄
 
 # SOBREESCRITURA DE MÉTODOS
 

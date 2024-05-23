@@ -1,5 +1,3 @@
-# 🙄
-
 # POO
 
 # CREACIÓN DE UNA CLASE
@@ -23,7 +21,7 @@ class Usuario():
               f'Teléfono: {self.telefono}')
 
     def cambiaEdad(self):
-        edadIntroducida = int(input("Introduce edad entre 18-100: "))
+        edadIntroducida = int(input("Introduce edad entre 18-100:"))
 
         if 18 < edadIntroducida < 100:
             self.__edad = edadIntroducida

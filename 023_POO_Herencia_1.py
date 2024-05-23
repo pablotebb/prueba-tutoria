@@ -1,5 +1,3 @@
-# 🙄
-
 # Definición de la clase padre
 
 class Persona:

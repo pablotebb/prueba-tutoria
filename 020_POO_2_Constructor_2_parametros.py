@@ -1,5 +1,3 @@
-# 🙄
-
 # POO
 
 # CREACIÓN DE UNA CLASE

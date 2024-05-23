@@ -1,4 +1,3 @@
-# 🙄
 
 from Cuadrado import Cuadrado
 

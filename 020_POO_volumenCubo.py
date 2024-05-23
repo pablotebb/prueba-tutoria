@@ -1,5 +1,3 @@
-# 🙄
-
 class Cubo:
     def __init__(self, ancho, alto, profundo):
         self.ancho = ancho

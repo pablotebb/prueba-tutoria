@@ -1,10 +1,7 @@
-# 🙄
-
-# from Persona3 import *
-from prueba import Persona, Empleado
+from Persona3 import *
 
 persona1 = Persona('Juan', 28)
-print(persona1.resumen())
+print(persona1)
 
 empleado1 = Empleado('Karla', 30, 5000)
 print(empleado1)
