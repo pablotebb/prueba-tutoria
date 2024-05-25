@@ -1,41 +1,37 @@
 
 
-# Encapsulación con Métodos y Propiedades
+# Crea una clase Estudiante con atributos privados __nombre y __nota. 
+# Implementa métodos getter para ambos atributos y un método setter para __nota 
+# que solo permita valores entre 0 y 10. Crea una instancia de Estudiante, 
+# establece y muestra sus valores usando los métodos adecuados.
 
-class CuentaBancaria:
-    def __init__(self, titular, saldo):
-        self.__titular = titular  # Atributo privado
-        self.__saldo = saldo      # Atributo privado
-    
-    @property
-    def saldo(self):
-        return self.__saldo
-    
-    @saldo.setter
-    def saldo(self, monto):
-        if monto >= 0:
-            self.__saldo = monto
-        else:
-            print("El saldo no puede ser negativo")
-    
-    def depositar(self, monto):
-        if monto > 0:
-            self.__saldo += monto
-        else:
-            print("El monto a depositar debe ser positivo")
-    
-    def retirar(self, monto):
-        if 0 < monto <= self.__saldo:
-            self.__saldo -= monto
-        else:
-            print("Monto inválido o saldo insuficiente")
+class Estudiante:
+    def __init__(self, nombre, nota):
+        self.__nombre = nombre
+        self.__nota = nota
 
-# Uso
-cuenta = CuentaBancaria("Ana", 1000)
-cuenta.depositar(500)
-print(cuenta.saldo)
-cuenta.retirar(200)
-print(cuenta.saldo)
-cuenta.saldo = 1500  # Usando el setter
-print(cuenta.saldo)
-print(cuenta._CuentaBancaria__saldo) # Accediendo a una propiedad privada. NO RECOMENDADO!!!!
+    def get_nombre(self):
+        return self.__nombre
+
+    def get_nota(self):
+        return self.__nota
+
+    def set_nota(self, nueva_nota):
+        if 0 <= nueva_nota <= 10:
+            self.__nota = nueva_nota
+        else:
+            print("La nota debe estar entre 0 y 10.")
+
+# Crear una instancia de Estudiante
+estudiante = Estudiante("Ana", 8)
+
+# Mostrar el nombre y la nota
+print("Nombre:", estudiante.get_nombre())
+print("Nota inicial:", estudiante.get_nota())
+
+# Intentar establecer una nueva nota válida e inválida
+estudiante.set_nota(9)
+print("Nueva nota válida:", estudiante.get_nota())
+
+estudiante.set_nota(15)
+print("Nota después del intento inválido:", estudiante.get_nota())

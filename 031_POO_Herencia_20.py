@@ -27,5 +27,6 @@ empleado = Empleado("Juan Pérez", 30, 50000)
 programador = Programador("Ana Gómez", 25, 60000, ["Python", "JavaScript"])
 print(empleado.detalles())
 print(programador.detalles())
+
 programador.agregar_lenguaje("Java")
 print(programador.detalles())
